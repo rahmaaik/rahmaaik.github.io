@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="firework.css">
+    <link rel="stylesheet" href="anim.js">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/js/bootstrap.js">
+    <link rel="icon" href="love.png" type="image/icon type">
+    <title>Rahma Aulia</title>
+</head>
+<body>
+
+    <audio id="sound1" src="backsound.mpeg" preload="auto"></audio>
+    <div class="wrapper">
+      <p style="font-size: 40px;" class="c">CLICK BELLOW</p>
+    </div>
+    <div class="wrapper">
+    <button class="b zoom" onclick="document.getElementById('sound1').play(); typeWriter()"> <img src="love.png" style="width:120px;height:120px;"></button>
+    </div>
+
+<p style="padding: 11px;" class="albert" id="demo"  ></p>
+
+<script>
+var i = 0;
+var txt = '/*13-03-2021*/         HAPPY SWEET SEVENTEEN                      Cieee adik kecil habis ini udah punya KTP itu artinya kamu sudah legal jadi penduduk Indonesia. Dan sialnya kamu juga menduduki hatiku yang menyiksaku akan kerinduan terhadapmu. Tapi walaupun udah bertambah tua kamu tetep aja adik kecil yang imut di mataku. Semoga kedepannya jadi pribadi yang lebih baik, Apa yang kamu cita-citakan semoga terkabulkan, tetep sabar menghadapi masalah hidup pahitmu hari ini tertawamu besok... sabar ya bahagiamu masih dibentuk. Maaf ya aku belum bisa kasih apa-apa ke kamu. Aku harap kamu gak muntah habis baca ini :)';
+var speed = 30;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+
+
+</body>
+</html>
+

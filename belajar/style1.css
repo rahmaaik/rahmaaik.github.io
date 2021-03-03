@@ -1,0 +1,73 @@
+body {
+  background-color:#fee4e7;
+}
+
+p {
+  font-size: 35px;
+}
+
+
+.wrapper {
+  text-align: center;
+}
+
+.button {
+  position: absolute;
+  top: 50%;
+}
+
+.b {
+padding: 0;
+border: none;
+border: 0px;
+border-style: none;
+background: none;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+@font-face{
+  font-family: albert;
+  src: url(aksara/veteran\ typewriter.ttf);
+}
+.albert {
+
+  font-family: albert;
+  margin-top: 50px;
+}
+
+@font-face{
+  font-family: m;
+  src: url(aksara/Mother\ Tongue.ttf);
+}
+.m {
+  font-family: m;
+}
+
+@font-face{
+  font-family: type;
+  src: url(aksara/Tox\ Typewriter.ttf);
+}
+.t {
+  font-family: type;
+}
+
+@font-face{
+  font-family: cupid;
+  src: url(aksara/Boomers\ Love.ttf);
+}
+.c {
+  margin-top: 40px;
+  font-family: cupid;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+.d {
+  -webkit-animation-delay: s;
+    animation-delay: 5s;
+}
